@@ -1,0 +1,72 @@
+{
+    "singleChart": [
+        {
+        "type":["doughnut"],
+        "order":4,
+        "priority":3,
+        "labels": ["Red","Blue","Yellow","Green"],
+        "datasets": [{
+            "api_url":"",
+            "label": "",
+            "data": [400, 500, 100,200,100],
+            "backgroundColor": ["rgb(255, 99, 132)","rgb(54, 162, 235)","rgb(255, 205, 86)","rgb(124,252,0)"],
+            "hoverOffset": 4
+          }],
+          "height":100,
+          "width":100
+        },
+        {
+        "type":["line"],
+        "order":2,
+        "priority":4,
+        "datasets": [{
+        "api_url":"",   
+        "label": "",
+        "data": [65, 59, 80, 81, 56, 55, 40],
+        "borderColor": "rgb(75, 192, 192)",
+        "tension": 0.1}],
+        "height":400,
+        "width":100
+        },
+        {
+        "type":["bar"],
+        "order":3,
+        "priority":1,
+        "datasets": [{
+        "api_url":"",   
+        "label": "",
+        "data":[65, 59, 80, 81, 56, 55, 40,41],
+        "backgroundColor": ["rgba(255, 99, 132, 0.2)","rgba(255, 159, 64, 0.2)","rgba(255, 205, 86, 0.2)","rgba(75, 192, 192, 0.2)","rgba(54, 162, 235, 0.2)","rgba(153, 102, 255, 0.2)","rgba(201, 203, 207, 0.2)"],
+        "borderColor": ["rgb(255, 99, 132)","rgb(255, 159, 64)","rgb(255, 205, 86)","rgb(75, 192, 192)","rgb(54, 162, 235)","rgb(153, 102, 255)","rgb(201, 203, 207)"]
+        }],
+        "height":100,
+        "width":100            
+        },
+        {
+        "type":["pie"],
+        "order":1,
+        "priority":2,
+        "datasets": [{
+        "api_url":"",              
+        "labels": ["Red","Orange","Yellow","Green","Blue"],
+        "chartColors": [{
+            "red":"rgb(255, 99, 132)",
+            "orange":"rgb(255, 159, 64)",
+            "yellow":"rgb(255, 205, 86)",
+            "green":"rgb(75, 192, 192)",
+            "blue":"rgb(54, 162, 235)",
+            "purple":"rgb(153, 102, 255)",
+            "grey":"rgb(201, 203, 207)"
+        }]
+        }],
+        "dataCount":5,
+        "height":100,
+        "width":100 
+        }
+
+]
+
+    
+       
+
+}
